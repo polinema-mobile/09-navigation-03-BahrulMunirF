@@ -87,7 +87,7 @@ public class SkorTest {
 		onView(withId(R.id.button_save))
 			.perform(click());
 		onView(withId(R.id.text_home_scorer))
-			.check(matches(withText("Candra 50\" Beni 60\" ")));
+				.check(matches(withText("Candra 50\" Beni 60\" ")));
 	}
 
 	@Test
@@ -111,6 +111,6 @@ public class SkorTest {
 		onView(withId(R.id.button_save))
 			.perform(click());
 		onView(withId(R.id.text_away_scorer))
-			.check(matches(withText("Deni 60\" Joni 70\" ")));
+				.check(matches(withText("Deni 60\" Joni 70\" ")));
 	}
 }
